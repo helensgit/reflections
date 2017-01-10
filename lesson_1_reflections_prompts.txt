@@ -25,7 +25,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-	Using the command git log, I can find the files I want to compare with.
+	Using the command git log, I can find the history.
 	Using the command git diff, I can compare two files.
 
 How might using version control make you more confident to make changes that
