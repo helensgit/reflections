@@ -6,10 +6,23 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 difference:
 
+//old
 working directory: staging area is associated with git.
 repository: commit the files in staging area and then it can be in the repository.
 
 it offer the value: build a bridge between working directory and repository.
+
+//new
+working directory:
+	working directory has newest files.
+	However, staging area has added files which has not been commit.
+
+repository:
+	respository has different versions by using git checkout command.
+	However, staging area has added files which has not been commit.
+
+value: 适暂存区允许我们同时提交多个文件，如果一个逻辑流要提交多个文件，暂存区就非常有用。
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
